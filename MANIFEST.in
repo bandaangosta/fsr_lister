@@ -1,0 +1,2 @@
+recursive-include fsr_lister/templates *
+recursive-include fsr_lister/static *

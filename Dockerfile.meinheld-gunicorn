@@ -1,0 +1,5 @@
+FROM tiangolo/meinheld-gunicorn-flask:python3.7-alpine3.8
+COPY . /app
+RUN pip install --no-cache-dir -r requirements.txt
+ENV STATIC_PATH /app/fsr_lister/static
+ENV MODULE_NAME fsr_lister
